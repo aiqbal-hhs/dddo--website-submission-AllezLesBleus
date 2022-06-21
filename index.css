@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Secular+One&family=Source+Sans+Pro:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.parallax {
+    background-image: url("/images/yayaaaababby.png");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.header{
+    height: 160px;
+    width: 100%;
+    padding: 0 8%;
+    position: relative;
+    background-color: #736558;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 20px;
+    width: 120px;
+}
+
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.nav-links li a::after{
+    background: #FB0417;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.main{
+    height:1000px;
+    background-color:#fff;
+    text-align: center;
+}
+.main h1{
+    font-size: 100px;
+    color:#736558;
+}
+.footer{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #736558;
+    color: rgb(133, 133, 133);
+}
+.copyright{
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #736558;
+}
+.copyright a{
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #736558;
+}
+.copyright a:hover{
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #736558;
+}
+.copyright a:visited{
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #736558;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.sticky + .content {
+    padding-top: 102px;
+}
+.content {
+    padding: 16px;
+}
